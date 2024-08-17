@@ -1,0 +1,408 @@
+
+
+
+
+
+/****colored,white section****/
+
+
+.colored-section{
+  background-color:  rgb(83, 218, 220);;
+}
+
+
+.white-section{
+  background-color: #fff;
+}
+
+
+
+
+
+
+/************************************************************ html elements ***************************************************************/
+
+
+
+
+/* Heading 3 style */
+h3{
+
+}
+
+
+
+body{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************************************************ IDS  ***************************************************************/
+
+
+
+
+
+/* Navbar content style */
+#navbarSupportedContent {
+  position: relative; /* Position relative to its normal position */
+  right: 0px; /* Positioning to the right (0px means no shift) */
+  font-weight: 400; /* Font weight */
+}
+
+
+
+
+
+/* Title section style */
+#title {
+  background-color: #6ca8e8; /* Background color */
+  color: #fff; /* Text color */
+}
+
+/* Features section background color */
+#features1 {
+  background-color: #fff; /* Background color */
+}
+
+
+
+/* Testimonials section style */
+#testimonials {
+
+ 
+  color: #fff; /* Text color */
+}
+
+
+
+
+
+#press {
+  
+  background-color:white ;
+}
+
+
+
+
+
+
+
+
+
+
+/* Pricing section style */
+#pricing {
+  margin: 100px; /* Margin */
+  padding: 5px; /* Padding */
+  text-align: center;
+
+}
+
+/* Footer style */
+#footer {
+  text-align: center;
+  
+  
+}
+
+
+
+
+
+/************************************************************ classes ***************************************************************/
+
+
+
+
+
+
+
+
+/* Big heading style */
+.bigheading {
+  font-family: 'Montserrat', sans-serif; /* Font type */
+  font-size: 2.5rem; /* Font size */
+  font-weight: 800; /* Font weight (bold) */
+ 
+ 
+}
+
+
+
+/* Paragraph style */
+.p {
+  color: #8f8f8f; /* Text color */
+}
+
+/* Center alignment for elements */
+.imp { text-align: center;
+}
+
+
+
+/* Hover effect for navigation links */
+.nav-link:hover {
+  color: #000000; /* Text color on hover */
+}
+
+/* Brand name positioning */
+.brand-name {
+  position: relative; /* Position relative to its normal position */
+  left: 30px; /* Shift 30px to the left */
+}
+
+/* Body font style */
+.body {
+  font-family: 'Montserrat'; /* Font type */
+}
+
+/* Category image dimensions and margins */
+.catt {
+  height: 300px; /* Image height */
+  width: 200px; /* Image width */
+  margin-top: 50px; /* Margin on top */
+  margin-bottom: 50px; /* Margin on bottom */
+}
+
+/* Margin for copy elements */
+.copy {
+  margin-top: 50px; /* Margin on top */
+}
+
+/* Navbar style */
+.navbar {
+  background-color: #6ca8e8; /* Background color */
+  padding-bottom: 4.5rem; /* Padding at the bottom */
+}
+
+/* Padding for navbar items */
+.nav-item {
+  padding: 0 20px; /* Padding on left and right */
+}
+
+/* Font size for navigation links */
+.nav-link {
+  font-size: 1.2rem; /* Font size */
+}
+
+/* Container fluid padding */
+.container-fluid {
+  padding: 3% 20%; /* Padding for all sides */
+  padding-bottom: 100px; /* Extra padding at the bottom */
+}
+
+
+
+
+
+
+/* Category image style */
+.cat {
+  height: 500px; /* Image height */
+  width: 290px; /* Image width */
+  margin-top: 50px; /* Margin on top */
+  position: absolute; /* Absolute positioning */
+  right: 40%; /* Shift 40% from the right */
+  transform: rotate(25deg); /* Rotate image 25 degrees */
+}
+
+/* Responsive adjustments for category image */
+@media (max-width: 991px) {
+  .cat {
+      text-align: center;
+    position: static; /* Static positioning */
+    transform: rotate(0deg); /* No rotation */
+    margin-left: 40%; /* Shift 40% from the left */
+  }
+}
+
+/* Navbar brand style */
+.navbar-brand {
+  font-family: 'Ubuntu'; /* Font type */
+  font-size: 1.5rem; /* Font size */
+  font-weight: bold; /* Font weight */
+  color: #222324; /* Text color */
+}
+
+/* Download button margins */
+.download-button {
+  margin: 5% 3% 5% 0; /* Margin for all sides */
+}
+
+/* Icon style */
+.icon {
+  color: rgb(83, 218, 220); /* Icon color */
+  margin-bottom: 10px; /* Margin on bottom */
+  margin-top: 40px; /* Margin on top */
+  background-color: transparent !important; /* Transparent background */
+}
+
+/* Hover effect for icons */
+.icon:hover {
+  color: rgb(21, 0, 255); /* Color on hover */
+}
+
+/* Padding for container elements */
+.container1, .container2, .container3 {
+  padding: 20px; /* Padding for all sides */
+}
+
+/* Row style with margin and positioning */
+.row {
+  margin: 100px 0; /* Margin on top and bottom */
+  position: relative; /* Position relative to its normal position */
+  z-index: 1; /* Ensure it stays above other elements */
+  padding: 10px; /* Padding for spacing */
+}
+
+
+
+
+
+
+
+
+
+.testimonial-text{
+  font-family: 'Montserrat', sans-serif; /* Font type */
+  font-size: 1.3rem; /* Font size */
+  font-weight: bold; /* Font weight (bold) */
+
+}
+
+
+/* Testimonial image style */
+.testimonial-image {
+  height: 100px; /* Image height */
+  width: 100px; /* Image width */
+  border-radius: 100%; /* Circular shape */
+  margin: 20px; /* Margin */
+}
+
+/* Carousel item padding */
+.carousel-item {
+  padding: 7% 15%; /* Padding for all sides */
+}
+
+/* Hover effect for container4 */
+.container4:hover {
+  color: rgb(21, 0, 255); /* Text color on hover */
+}
+
+
+
+
+
+
+
+
+/* Press logo style */
+.press-logo {
+  width: 15%; /* Logo width */
+  margin: 50px; /* Margin */
+}
+
+
+
+
+
+
+
+
+
+/* Special section v11001 style */
+.v11001 {
+  background-color: rgb(83, 218, 220); /* Background color */
+  color: white; /* Text color */
+
+  padding: 10% 20%; /* Padding for all sides */
+  font-family: 'Montserrat', sans-serif; /* Font type */
+  margin: 10px 0; /* Margin on top and bottom */
+}
+
+/* Main heading style */
+.main-heading {
+  font-size: 2.5rem; /* Font size */
+  font-weight: 800; /* Font weight (bold) */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+
+/* Plan padding */
+.plan {
+  padding-bottom: 50px; /* Padding at the bottom */
+}
+
+/* Button style */
+.btn1 {
+  margin-top: 48px; /* Margin on top */
+}
+
+
+
+
+
+
+
+
+
+
+/* Hover effects for copy and social links */
+.copy:hover {
+  color: #000000; /* Text color on hover */
+}
+
+.social:hover {
+  color: #000000; /* Text color on hover */
+}
+
+/* Copy text style */
+.copy {
+  color: grey; /* Text color */
+  padding: 20px;
+}
+
+/* Social link style */
+.social {
+  margin: 0 5px; /* Margin on left and right */
+  padding-top: 20px;
+}
+
+
+
+
+
